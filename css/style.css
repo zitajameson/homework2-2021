@@ -25,11 +25,6 @@ image{
     width: 550px;
 }
 
-div{
-    height: 150px;
-    padding: 25px;
-}
-
 #red{
     text-align: right;
     background-color: #FF0000;
@@ -63,4 +58,9 @@ footer p{
     text-align: center;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+div{
+    height: 150px;
+    padding: 25px;
 }

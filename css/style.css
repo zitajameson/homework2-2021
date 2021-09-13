@@ -10,6 +10,13 @@ h1{
     text-align: center;
 }
 
+img{
+    height: auto;
+    width: 550px;
+    margin: auto;
+    display: block;
+}
+
 h2{
     font-size: 32px;
     text-shadow: 4px 4px 2px #808080;
@@ -20,9 +27,18 @@ p{
     padding-top: 15px;
 }
 
-image{
-    align-items: center;
-    width: 550px;
+header, nav, main, h1, footer{
+    margin: 10px 0;
+}
+
+#intro{
+    height: 150px;
+    padding: 25px;
+}
+
+div{
+    min-height: 150px;
+    padding: 25;
 }
 
 #red{
@@ -58,9 +74,5 @@ footer p{
     text-align: center;
     padding-right: 10px;
     padding-bottom: 10px;
-}
-
-div{
-    height: 150px;
-    padding: 25px;
+    padding-top: 0px;
 }
